@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shapath Hacker</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+}
+
+header{
+background:#111;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#ff0000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:60px;
+color:#ff0000;
+}
+
+.hero p{
+font-size:22px;
+margin:20px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#ff0000;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1b1b1b;
+padding:20px;
+border-radius:12px;
+text-align:center;
+}
+
+.card h3{
+color:#ff3b3b;
+margin-bottom:10px;
+}
+
+footer{
+background:#111;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">SHAPATH HACKER</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#videos">Videos</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>SHAPATH HACKER</h1>
+<p>Animation Stories • Creative Adventures • New Videos Every Week</p>
+
+<a class="btn" href="https://youtube.com/@shapathhacker89928?si=EBUPKl-Rdixo_oM7" target="_blank">
+Watch on YouTube
+</a>
+</section>
+
+<section id="videos">
+<h2 style="color:#ff0000;text-align:center;">Featured Videos</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Animation Story</h3>
+<p>Exciting and emotional animation adventures.</p>
+</div>
+
+<div class="card">
+<h3>New Uploads</h3>
+<p>Fresh animated stories every week.</p>
+</div>
+
+<div class="card">
+<h3>Subscribe</h3>
+<p>Join the Shapath Hacker family today!</p>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<h2 style="color:#ff0000;">About</h2>
+<br>
+<p>
+Welcome to <b>Shapath Hacker</b>. This channel creates amazing
+animation stories filled with adventure, fun, emotions, and creativity.
+Subscribe to enjoy new animated videos every week.
+</p>
+</section>
+
+<section id="contact">
+<h2 style="color:#ff0000;">Contact</h2>
+<br>
+
+<p>YouTube:
+<a style="color:#ff0000;"
+href="https://youtube.com/@shapathhacker89928?si=EBUPKl-Rdixo_oM7">
+Shapath Hacker
+</a>
+</p>
+
+</section>
+
+<footer>
+© 2026 SHAPATH HACKER | All Rights Reserved
+</footer>
+
+</body>
+</html>
